@@ -10,6 +10,8 @@ After do |scenario|
 
     if scenario.failed?
         print_screen(scenario_name.downcase!, 'Failed')
+
     else
         print_screen(scenario_name.downcase!, 'Success')
+        
 end
